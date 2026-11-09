@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 'rose-pistachio-cake',
+    name: 'Rose & pistachio cake',
+    description: 'Soft sponge, rose cream, toasted pistachio',
+    category: 'Sweets',
+    price: 420,
+    label: 'Bestseller',
+    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85',
+  },
+  {
+    id: 'garden-grain-bowl',
+    name: 'The garden grain bowl',
+    description: 'Herby grains, greens, crunchy seeds',
+    category: 'Meals',
+    price: 360,
+    label: 'Fresh today',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85',
+  },
+  {
+    id: 'brown-butter-brownie',
+    name: 'Brown butter brownie',
+    description: 'Deep chocolate, flaky salt, no regrets',
+    category: 'Sweets',
+    price: 180,
+    label: '',
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=85',
+  },
+  {
+    id: 'paneer-tikka-wrap',
+    name: 'Paneer tikka wrap',
+    description: 'Smoky paneer, mint chutney, soft roti',
+    category: 'Meals',
+    price: 290,
+    label: 'Lunch favourite',
+    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85',
+  },
+  {
+    id: 'masala-little-bites',
+    name: 'Masala little bites',
+    description: 'Crispy, golden, with a bright green chutney',
+    category: 'Snacks',
+    price: 220,
+    label: '',
+    image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85',
+  },
+  {
+    id: 'seasonal-fruit-tart',
+    name: 'Seasonal fruit tart',
+    description: 'Buttery shell, vanilla custard, market fruit',
+    category: 'Sweets',
+    price: 340,
+    label: 'Small batch',
+    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=85',
+  },
+]
+
+export const categories = ['Everything', 'Meals', 'Sweets', 'Snacks']
